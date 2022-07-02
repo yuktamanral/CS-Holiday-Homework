@@ -1,0 +1,10 @@
+def SWAPPER(lista):
+    listb=[]
+    l=int(len(lista)/2)
+    for i in range (l):
+        listb.append(lista[i])
+    del lista[0:l]
+    lista.extend(listb)
+    print(lista)
+lista=[35,67,89,23,12,45]
+SWAPPER(lista)
