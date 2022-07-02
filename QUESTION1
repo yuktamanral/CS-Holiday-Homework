@@ -1,0 +1,7 @@
+Number=1234
+def REVERSAR(Number):
+    l=str(Number)
+    l=l[::-1]
+    l=int(l)
+    print(l)
+REVERSAR(Number)
